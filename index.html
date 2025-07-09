@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burguer King</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navBar">
+      <figure class="logo"></figure>
+      <h1 class="tituloLogo">BURGER KING</h1>
+      <section class="botoes">
+        <a href="#home" class="btns">HOME</a>
+        <a href="#sobre-nos" class="btns">SOBRE NÓS</a>
+        <a href="#servicos" class="btns">SERVIÇOS</a>
+        <a href="#depoimentos" class="btns">DEPOIMENTOS</a>
+        <a href="#depoimentos" class="btns">CONTATOS</a>
+      </section>
+    </nav>
+    <main class="containerMain">
+      <section class="esquerdaInfo">
+        <p class="pontilhada">Promoção da semana</p>
+        <p class="promocao">BURGER</p>
+        <p class="promocao2">WEEK</p>
+      </section>
+      <figure class="imagemDireita"></figure>
+    </main>
+    <!-- Segunda página, em branco, para você codar depois -->
+    <section class="segundaPagina">
+      <figure class="lanchesImgs" id="servicos">
+        <img src=".//imgs/lancheQuadrado2.jpg" alt="" class="lancheQuadrado" />
+        <section class="divLanches">
+          <img src=".//imgs/lanche1.jpeg" alt="" class="lanche1" />
+          <img src=".//imgs/lanche2.jpeg" alt="" class="lanche2" />
+        </section>
+      </figure>
+      <div class="compraBtnDiv">
+        <button class="botaoComprarAgora" onclick="comprou()">
+          COMPRAR AGORA
+        </button>
+      </div>
+      <article class="sobreNos" id="sobre-nos">
+        <h2 class="tituloSobreNos">SOBRE NÓS</h2>
+        <section class="historia">
+          <h3>História</h3>
+          <p>
+            O Burger King foi fundado em 1954, em Miami, nos Estados Unidos, e
+            se tornou uma das maiores redes de fast food do mundo. Desde o
+            início, oferecendo sabor único aos clientes.
+          </p>
+        </section>
+        <section class="compromisso">
+          <h3>Compromisso com a Qualidade</h3>
+          <p>
+            No Burger King, a qualidade vem em primeiro lugar. Os ingredientes
+            são selecionados cuidadosamente, garantindo sabor e frescor em cada
+            sanduíche, seja para consumo no restaurante ou no delivery.
+          </p>
+        </section>
+        <section class="inovacao">
+          <h3>Inovação no Cardápio</h3>
+          <p>
+            Sempre inovador, o Burger King investe constantemente em novos
+            produtos e promoções, criando combinações surpreendentes e
+            lançamentos especiais que agradam diversos públi
+          </p>
+        </section>
+        <section class="sustentabilidade">
+          <h3>Sustentabilidade</h3>
+          <p>
+            O Burger King também se preocupa com o meio ambiente e vem adotando
+            medidas para reduzir o uso de plástico, melhorar a cadeia de
+            suprimentos e contribuir para um futuro mais sustentável.
+          </p>
+        </section>
+      </article>
+    </section>
+    <footer class="terceiraParte">
+      <section class="containerTerceiro">
+        <aside class="containerAvaliacoes" id="depoimentos">
+          <div class="clienteAvaliacao">
+            <img
+              src="./imgs/samanta.jpeg"
+              alt="minhaMãe"
+              class="minhaMae"
+              width="20%"
+              height="80%"
+              style="
+                border-radius: 25px;
+                border: 3px solid #fff9c4;
+                margin-top: 0.7em;
+                margin-left: 0.5em;
+                margin-right: 0.4em;
+              "
+            />
+            <div class="conteudoAvaliacao">
+              <h4 style="color: #fff9c4">Samanta</h4>
+              <p>
+                Site bonito e fácil de navegar! Pedi meu Whopper e chegou
+                rapidinho, estava delicioso como sempre.
+              </p>
+            </div>
+          </div>
+          <div class="clienteAvaliacao">
+            <img
+              src="./imgs/rafaela.jpeg"
+              alt="minhaMãe"
+              class="irma"
+              width="20%"
+              height="80%"
+              style="
+                border-radius: 25px;
+                border: 3px solid #fff9c4;
+                margin-top: 0.7em;
+                margin-left: 0.5em;
+                margin-right: 0.4em;
+              "
+            />
+            <div class="conteudoAvaliacao">
+              <h4 style="color: #fff9c4">rafaela</h4>
+              <p>
+                Amei o visual do site, super moderno! E o lanche veio quentinho,
+                muito saboroso, virei fã!
+              </p>
+            </div>
+          </div>
+          <div class="clienteAvaliacao">
+            <img
+              src="./imgs/fernanda.jpeg"
+              alt="minhaMãe"
+              class="minhaMae"
+              width="20%"
+              height="80%"
+              style="
+                border-radius: 25px;
+                border: 3px solid #fff9c4;
+                margin-top: 0.8em;
+                margin-left: 0.5em;
+                margin-right: 0.4em;
+              "
+            />
+            <div class="conteudoAvaliacao">
+              <h4 style="color: #fff9c4">Fernanda</h4>
+              <p>
+                O site é rápido e prático, adorei as imagens dos produtos. O
+                lanche estava impecável, bem temperado e suculento!
+              </p>
+            </div>
+          </div>
+        </aside>
+        <section class="depoimentos">
+          <input
+            type="text"
+            placeholder="Email"
+            class="inputDepoimento"
+            id="input"
+          />
+          <textarea
+            name=""
+            id="textoGrande"
+            placeholder="Sua experiência"
+          ></textarea>
+          <button class="btn" onclick="reset()">Enviar</button>
+        </section>
+      </section>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
